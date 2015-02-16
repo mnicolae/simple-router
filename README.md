@@ -9,3 +9,6 @@ Programming assignment for CSC458/2209 - Computer Networks.
 
 ## Instructor:
 [Yashar Ganjali](http://www.cs.toronto.edu/~yganjali/)
+
+## Links:
+[Assignment handout](http://mnicolae.github.io/simple-router/)
