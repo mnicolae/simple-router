@@ -1,0 +1,1 @@
+// Use this file for any custom Javascript code which you want to apply to all pages using this theme.

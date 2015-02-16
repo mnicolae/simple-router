@@ -1,0 +1,974 @@
+#pageStripe, .spacer, #logoFixedLeft, #logoFixedRight, #logoAbsoluteLeft, #logoAbsoluteRight, #backgroundElement, #titleLogo, #headerLogo, #nav, #megamenu, #bannerOuter, #siteSloganLeft, #siteSloganRight, #headerSearch, #sideSearch, #footerNav, #breadcrumb, #gradient, #navBlock, .raftNavWrapper, #navSource, #splitNav, #blockNav, .taglineSpacer {
+	display: none !important;
+}
+
+body {
+	font: 12pt/1.3em "Spranq eco sans", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #000000;
+}
+
+#main {
+	padding: 0px;
+}
+
+#headerContent {
+	float: none;
+	display: block;
+	position: relative;
+	width: auto;
+}
+
+#contentContainer,
+header {
+	padding: 0;
+	margin: 0;
+}
+
+#siteTitle h1,
+#siteSlogan,
+#siteSlogan h2 {
+	display: block;
+	position: relative;
+	height: auto;
+	font-size: 12pt;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+#siteSlogan {
+	color: #000000 !important;
+}
+
+#content {
+	margin: 0;
+	width: 100% !important;
+	float: none !important;
+	color: #000000 !important;
+}
+
+aside {
+	float: none !important;
+	width: 100% !important;
+}
+
+#sidebarTitle {
+	line-height: 1.00em;
+	font-size: 14pt;
+	padding: 0;
+	margin: 0;
+	color: #000000;
+}
+
+#sidebar {
+	color: #000000 !important;
+}
+
+a, 
+a:visited {
+	color: #0000ff;
+}
+
+a:link:after,
+a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 90%;
+}
+
+#footer {
+	padding-top: 20px;
+}
+body {
+	background-color: #FFFFFF;
+	background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+	background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#FFFFFF));
+	background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+	background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+	background-image: linear-gradient(top, #FFFFFF, #FFFFFF);
+	background-repeat: repeat-x;
+}
+
+/* @group Social Bar */
+
+#socialBar {
+	color: #EAEAEA;
+}
+
+#socialBar a {
+	color: #EAEAEA;
+}
+
+#socialBar a:visited {
+	color: #EAEAEA;
+}
+
+#socialBar a:hover {
+	color: #B3B3B3;
+}
+
+#socialBar a:active {
+	color: #B3B3B3;
+}
+
+#socialBar [class^="fa fa-"],
+#socialBar a [class^="fa fa-"] {
+	color: #FFFFFF;
+}
+
+#socialBar [class^="fa fa-"]:hover,
+#socialBar a:hover [class^="fa fa-"] {
+	color: #B3B3B3;
+}
+
+#socialBar [class^="fa fa-"]:active,
+#socialBar a:active [class^="fa fa-"] {
+	color: #B3B3B3;
+}
+
+#socialBarBackground {
+	background-color: #000000;
+	background-image: -moz-linear-gradient(top, #000000, #000000);
+	background-image: -ms-linear-gradient(top, #000000, #000000);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000000), to(#000000));
+	background-image: -webkit-linear-gradient(top, #000000, #000000);
+	background-image: -o-linear-gradient(top, #000000, #000000);
+	background-image: linear-gradient(top, #000000, #000000);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+
+/* @end */
+
+a {
+	color: #006699;
+} 
+
+a:visited {
+	color: #006699;
+}
+
+a:hover {
+	color: #993300;
+}
+
+a:active {
+	color: #993300;
+}
+
+/* Prevent Bootstrap buttons inheriting link colours */
+a:visited.btn {
+	color: #333;
+}
+
+a:visited.btn-primary,
+a:visited.btn-info,
+a:visited.btn-success,
+a:visited.btn-warning,
+a:visited.btn-danger,
+a:visited.btn-inverse {
+	color: #fff;
+}
+
+#header {
+	border-bottom: 1px solid #EAEAEA;
+}
+
+#siteTitle a {
+	color: #333333;
+}
+
+#siteTitle a:hover {
+	color: #555555;
+}
+
+#siteSlogan {
+	color: #555555;
+}
+
+#upperHorizontalBar {
+	background-color: #CDCDCD;
+	background-image: -moz-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -ms-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E7E7E7), to(#CDCDCD));
+	background-image: -webkit-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -o-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E7E7E7', endColorstr='#CDCDCD', GradientType=0);
+	color: #4C4C4C;
+}
+
+#upperHorizontalBar h1,
+#upperHorizontalBar h2,
+#upperHorizontalBar h3,
+#upperHorizontalBar h4,
+#upperHorizontalBar h5,
+#upperHorizontalBar h6 {
+	color: #404040;
+}
+
+#upperHorizontalBar a {
+	color: #004080;
+}
+
+#upperHorizontalBar a:visited {
+	color: #004080;
+}
+
+#upperHorizontalBar a:hover {
+	color: #6699CC;
+}
+
+#upperHorizontalBar a:active {
+	color: #6699CC;
+}
+
+#middleHorizontalBar {
+	background-color: #CDCDCD;
+	background-image: -moz-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -ms-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E7E7E7%), to(#CDCDCD));
+	background-image: -webkit-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -o-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E7E7E7', endColorstr='#CDCDCD', GradientType=0);
+	color: #4C4C4C;
+}
+
+#middleHorizontalBar h1,
+#middleHorizontalBar h2,
+#middleHorizontalBar h3,
+#middleHorizontalBar h4,
+#middleHorizontalBar h5,
+#middleHorizontalBar h6 {
+	color: #404040;
+}
+
+#middleHorizontalBar a {
+	color: #004080;
+}
+
+#middleHorizontalBar a:visited {
+	color: #004080;
+}
+
+#middleHorizontalBar a:hover {
+	color: #6699CC;
+}
+
+#middleHorizontalBar a:active {
+	color: #6699CC;
+}
+
+#lowerHorizontalBar {
+	background-color: #CDCDCD;
+	background-image: -moz-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -ms-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#E7E7E7%), to(#CDCDCD));
+	background-image: -webkit-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: -o-linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-image: linear-gradient(top, #E7E7E7, #CDCDCD);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E7E7E7', endColorstr='#CDCDCD', GradientType=0);
+	color: #4C4C4C;
+}
+
+#lowerHorizontalBar h1,
+#lowerHorizontalBar h2,
+#lowerHorizontalBar h3,
+#lowerHorizontalBar h4,
+#lowerHorizontalBar h5,
+#lowerHorizontalBar h6 {
+	color: #404040;
+}
+
+#lowerHorizontalBar a {
+	color: #004080;
+}
+
+#lowerHorizontalBar a:visited {
+	color: #004080;
+}
+
+#lowerHorizontalBar a:hover {
+	color: #9C9C9C;
+}
+
+#lowerHorizontalBar a:active {
+	color: #9C9C9C;
+}
+
+#footerContainer {
+	background-color: #242424;
+	background-image: -moz-linear-gradient(top, #4C4C4C, #242424);
+	background-image: -ms-linear-gradient(top, #4C4C4C, #242424);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4C4C4C%), to(#242424));
+	background-image: -webkit-linear-gradient(top, #4C4C4C, #242424);
+	background-image: -o-linear-gradient(top, #4C4C4C, #242424);
+	background-image: linear-gradient(top, #4C4C4C, #242424);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4C4C4C', endColorstr='#242424', GradientType=0);
+	color: #9A9A9A;
+}
+
+#footerContainer h1,
+#footerContainer h2,
+#footerContainer h3,
+#footerContainer h4,
+#footerContainer h5,
+#footerContainer h6 {
+	color: #9A9A9A;
+}
+
+#footerContainer a {
+	color: #0000FF;
+}
+
+#footerContainer a:visited {
+	color: #0000FF;
+}
+
+#footerContainer a:hover {
+	color: #0000FF;
+}
+
+#footerContainer a:active {
+	color: #0000FF;
+}
+
+#bannerBorder {
+	border: 1px solid #DCDCDC;
+	background-color: #FFFFFF;
+}
+
+#bannerContentBox {
+	color: #EAEAEA;
+}
+
+#bannerBoxBackground {
+	background: #000000;
+}
+
+#bannerContentBox h1,
+#bannerContentBox h2,
+#bannerContentBox h3,
+#bannerContentBox h4,
+#bannerContentBox h5,
+#bannerContentBox h6 {
+	color: #EAEAEA;
+}
+
+#bannerContentBox a {
+	color: #0080FF;
+}
+
+#bannerContentBox a:visited {
+	color: #0080FF;
+}
+
+#bannerContentBox a:hover {
+	color: #0080FF;
+}
+
+#bannerContentBox a:active {
+	color: #0080FF;
+}
+
+#content {
+	color: #555555;
+}
+
+[class^="fa fa-"] {
+ 	color: #000000;
+}
+
+.blog-entry,
+.filesharing-item {
+	border-bottom: 1px solid #EAEAEA;
+}
+
+#blockNav a,
+#splitNav a {
+	color: #555555;
+}
+
+#blockNav a:hover,
+#splitNav a:hover {
+	color: #404040;
+}
+
+#blockNav a:active,
+#splitNav a:active {
+	color: #404040;
+}
+
+#blockNav a.current,
+#splitNav a.current {
+	color: #404040;
+}
+
+#nav li a,
+#nav li a [class^="fa fa-"] {
+	color: #555555;
+}
+
+#nav li a:hover,
+#nav li a:hover [class^="fa fa-"] {
+	color: #000000;
+}
+
+#nav li a:active,
+#nav li a:active [class^="fa fa-"] {
+	color: #000000;
+}
+
+#nav ul li .current,
+#nav ul li .current:hover,
+#nav ul li .currentAncestor,
+#nav ul li .currentAncestor:hover,
+#nav ul li .current [class^="fa fa-"],
+#nav ul li .current:hover [class^="fa fa-"],
+#nav ul li .currentAncestor [class^="fa fa-"],
+#nav ul li .currentAncestor:hover [class^="fa fa-"] {
+	color: #000000;
+}
+
+#nav ul ul,
+#nav ul ul ul,
+#nav ul ul ul ul,
+#nav ul ul ul ul ul {
+	background: #FFFFFF;
+}
+
+#nav ul ul,
+#nav ul ul li,
+#nav ul ul ul li {
+	border-color: #EAEAEA;
+}
+
+#nav ul ul li a,
+#nav ul ul li a.nolink,
+#nav ul ul li a.nolink:hover,
+#nav ul ul li a [class^="fa fa-"] {
+	color: #555555;
+}
+
+#nav ul ul li a:hover,
+#nav ul ul li a:hover [class^="fa fa-"] {
+	color: #000000;
+}
+
+#nav ul ul li a:active,
+#nav ul ul li a:active [class^="fa fa-"] {
+	color: #A9A9A9;
+}
+
+#nav ul ul li .current,
+#nav ul ul li .current:hover,
+#nav ul ul li .currentAncestor,
+#nav ul ul li .currentAncestor:hover,
+#nav ul ul li .current [class^="fa fa-"],
+#nav ul ul li .current:hover [class^="fa fa-"],
+#nav ul ul li .currentAncestor [class^="fa fa-"],
+#nav ul ul li .currentAncestor:hover [class^="fa fa-"] {
+	color: #000000;
+}
+
+#footer {
+	border-top: 1px solid #333333;
+	color: #5E5E5E;
+	background-color: #242424;
+	background-image: -moz-linear-gradient(top, #242424, #242424);
+	background-image: -ms-linear-gradient(top, #242424, #242424);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#242424), to(#242424));
+	background-image: -webkit-linear-gradient(top, #242424, #242424);
+	background-image: -o-linear-gradient(top, #242424, #242424);
+	background-image: linear-gradient(top, #242424, #242424);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#242424', endColorstr='#242424', GradientType=0);
+}
+
+#footerText {
+	color: #5E5E5E;
+}
+
+#footer a,
+#myExtraContent10 a {
+	color: #5E5E5E;
+}
+
+#footer a:visited,
+#myExtraContent10 a:visited {
+	color: #5E5E5E;
+}
+
+#footer a:hover,
+#myExtraContent10 a:hover {
+	color: #FFFFFF;
+}
+
+#footer a:active,
+#myExtraContent10 a:active {
+	color: #FFFFFF;
+}
+
+#sidebarTitle h3 {
+	color: #404040;
+}
+
+#sidebar {
+	color: #555555;
+}
+
+#sidebar a,
+#pluginSidebar a {
+	color: #006699;
+}
+
+#sidebar a:hover,
+#pluginSidebar a:hover {
+	color: #993300;
+}
+
+#sidebar a:active,
+#pluginSidebar a:active {
+	color: #993300;
+}
+
+#sidebar a:visited,
+#pluginSidebar a:visited {
+	color: #006699;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #000080;
+}
+
+h3 {
+	color: #404040;
+}
+
+h4 {
+	color: #404040;
+}
+
+h5 {
+	color: #404040;
+}
+
+h6 {
+	color: #404040;
+}
+
+/* @group RAFT Navigation Colours */
+
+.raftNavWrapper {
+	border: 1px solid #D3D3D3;
+}
+
+.raftNavTitle h3 {
+	background: #E9E9E9;
+	color: #3F3F3F;
+}
+
+.raftNavWrapper .raftNavArrow [class^="fa fa-"] {
+	color: #3F3F3F;
+}
+
+.raftNav a,
+.raftNav a:visited,
+.raftNav a [class^="fa fa-"] {
+	background: #FFFFFF;
+	color: #555555;
+	border-top: 1px solid #D3D3D3;
+}
+
+.raftNav a:hover,
+.raftNav a:active,
+.raftNav a:focus,
+.raftNav a:hover [class^="fa fa-"],
+.raftNav a:active [class^="fa fa-"],
+.raftNav a:focus [class^="fa fa-"] {
+	background: #0080FF;
+	color: #FFFFFF;
+}
+
+.raftNav a.current,
+.raftNav a.current [class^="fa fa-"] {
+	color: #3F3F3F;
+	background: #E9E9E9;
+}
+
+/* @end */
+
+
+		/* @option User selected body background setting */
+
+
+
+/* @option user selected socialBar setting */
+
+#socialBar,
+#socialBarSpacer {
+	display: none;
+}
+
+/* @option user selected header layout setting */
+
+#headerContent {
+	float: right;
+}
+
+#headerSearch {
+	text-align: left;
+}
+
+#siteTitle,
+#titleLogo,
+#siteSlogan {
+	text-align: right;
+}
+
+#navContent {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+/* This compensates for the right margin applied for the floating headerContent and lets the megemenu panels span upto the total page width */
+#megamenu ul ul {
+	margin-right: -100px !important;
+}
+
+/* @option user-selected navigation layout setting */
+
+#navContent {
+	display: block;
+}
+
+/* On screens less than this width, hide the drop-down menu and use toggle menu instead */
+@media screen and (max-width: 700px){
+	#navContent {
+		display: none;
+	}
+	
+	.raftNavWrapper {
+		display: block;
+	}
+}
+
+
+/* @option user-selected #navigation menu position setting */
+
+#nav ul ul li {
+	width: 150px;
+}
+
+#nav ul ul ul {
+	left: 148px !important;
+}
+
+/* @option User selected banner border setting */
+
+#bannerBorder {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: none;
+}
+
+#banner {
+	margin: 0px;
+}
+
+/* @option user selected content background setting */
+
+#bannerBoxBackground {
+	-moz-opacity: 0.75;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+}
+
+/* @option user-selected heading and title font face */
+
+h1, h2, h3, h4, h5, h6,
+#siteTitle h1,
+#siteSlogan h2,
+#sidebarTitle h3,
+.blog-entry-title,
+.album-title,
+.photo-title,
+.movie-page-title,
+.movie-title {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* @option user-selected navigation font face */
+
+#nav, #megamenu, #megamenuStack, #shakeNav, #splitNav, #blockNav {
+	font-family: Helvetica, helvetica, sans serif;
+}
+
+/* @option user-selected body font face */
+
+body {
+	font-family: Arial, arial, Helvetica, sans-serif;
+}
+
+/* @option user selected font size */
+
+body {
+	font-size: 85%;
+}
+
+/* @option user-selected line height spacing */
+
+body {
+	line-height: 1.50em;
+}
+
+/* @option user-selected logo position setting */
+
+/* @option user-selected vertical spacing settings */
+
+.floodSpacer,
+#headerMargin {
+	height: 10px;
+}
+
+#upperHorizontalBar,
+#middleHorizontalBar,
+#lowerHorizontalBar {
+	margin-top: 10px;
+}
+
+#contentContainer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* @option user-selected sidebar width and position setting */
+
+#contentContainer #content {
+	float: none;
+	width: auto;
+}
+
+aside,
+#sidebarWrapper {
+	display: none !important;
+	float: none;
+}
+
+/* @option user-selected theme width setting */
+
+.floodWidth {
+	max-width: 1040px;
+}
+
+@media screen and (max-width: 769px) {
+
+.floodSpacer, #headerMargin {
+	height: 10px;
+}
+
+#headerContent {
+	width: auto;
+	float: none;
+	text-align: left;
+}
+
+#navContent {
+	position: relative;
+}
+
+#nav {
+	margin-left: -15px;
+}
+
+#upperHorizontalBar, 
+#middleHorizontalBar,
+#lowerHorizontalBar {
+	margin-top: 10px;
+}
+
+#contentContainer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contentContainer #content {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#contentContainer #contentWrapper {
+	column-count: 1;
+    -moz-column-count: 1;  
+    -webkit-column-count: 1;
+    column-gap: 0px;   
+    -moz-column-gap: 0px;  
+    -webkit-column-gap: 0px; 
+}
+
+#footerNav {
+	display: none !important;
+}
+
+#leftFooter,
+#footerContent {
+	text-align: center;
+	float: none;
+	display: block;
+}
+
+} /* End @media block */
+
+@media screen and (max-width: 569px) {
+
+#contentContainer #content {
+	width: 100%;
+	float: none;
+}
+
+#aside {
+	float: none;
+	width: 100%;
+}
+
+/* Code copied over from the 769.css file follows */
+
+.floodSpacer, #headerMargin {
+	height: 10px;
+}
+
+#headerContent {
+	width: auto;
+	float: none;
+	text-align: left;
+}
+
+#navContent {
+	position: relative;
+}
+
+#nav {
+	margin-left: -15px;
+}
+
+#upperHorizontalBar, 
+#middleHorizontalBar,
+#lowerHorizontalBar {
+	margin-top: 10px;
+}
+
+#contentContainer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contentContainer #content {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#contentContainer #contentWrapper {
+	column-count: 1;
+    -moz-column-count: 1;  
+    -webkit-column-count: 1;
+    column-gap: 0px;   
+    -moz-column-gap: 0px;  
+    -webkit-column-gap: 0px; 
+}
+
+#footerNav {
+	display: none !important;
+}
+
+#leftFooter,
+#footerContent {
+	text-align: center;
+	float: none;
+	display: block;
+}
+} /* End @media block */
+
+/* @user-setting Responsive images */
+
+#contentWrapper img,
+#aside img {
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic;
+}
+
+/* @option user-selected RAFT setting */
+
+/*
+HTML code would be as follows to make video content responsive:
+
+<div class="video">
+	<iframe src="http://player.vimeo.com/video/6284199?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0"></iframe>
+</div>
+*/
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video iframe,  
+.video object,  
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* @option user-selected miscellaneous theme setting */
+
+#lastUpdated {
+	display: block;
+}
+
+
+/* @option user-selected miscellaneous theme setting */
+
+#footerNav {
+	display: inline;
+}
+
+/* @option user-selected miscellaneous theme style setting */
+
+#backToTopWrapper {
+	display: block;
+}
+
+/* @option user-selected sidebar function */
+
+a, a:visited {
+	text-decoration: underline;
+}
+
+/* @option user-selected miscellaneous theme setting */
+
+.spacer1,
+#bannerOuter {
+	display: none;
+}
+
+
+
+		
